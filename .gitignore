@@ -1,0 +1,16 @@
+# Rust (Backend)
+/target/          # Carpeta de compilación de Rust
+**/*.rs.bk        # Backups de archivos Rust
+/backend/target
+
+# Ignorar TODAS las node_modules en cualquier nivel
+**/node_modules/
+/frontend/node_modules    # Dependencias de npm
+/dist/            # Carpeta de build (si usas Vite/Webpack)
+.env.local        # Variables de entorno locales
+
+# General
+.DS_Store        # Archivos de macOS
+.idea/           # Config de JetBrains IDE
+.vscode/         # Config de VS Code
+*.log            # Archivos de log
